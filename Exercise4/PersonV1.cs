@@ -12,9 +12,9 @@ namespace Exercise4
 
         public PersonV1(string firstName, string lastName, int age)
         {
-            _firstName = firstName;
-            _lastName = lastName;
-            _age = age;
+            FirstName = firstName;
+            LastName = lastName;
+            Age = age;
         }
 
         public string FirstName
